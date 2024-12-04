@@ -33,14 +33,13 @@ docker run -d -p 9092:9092 \
 --name kafka confluentinc/cp-kafka
 
 
+## 📌 Commands Summary
 
-📌 Commands Summary
-Command	Description
-yarn install	            Install project dependencies
-node producer.js	        Run the Kafka producer
-node consumer.js	        Run the Kafka consumer
-node admin.js	            Run the Kafka admin operations
-docker run ... (zookeeper)	Start Zookeeper
-docker run ... (kafka)	    Start Kafka
-
-
+| **Command**                          | **Description**                       |
+|--------------------------------------|---------------------------------------|
+| `yarn install`                       | Install project dependencies          |
+| `node producer.js`                   | Run the Kafka producer                |
+| `node consumer.js`                   | Run the Kafka consumer                |
+| `node admin.js`                      | Run the Kafka admin operations        |
+| `docker run ... (zookeeper)`         | Start Zookeeper                       |
+| `docker run ... (kafka)`             | Start Kafka                           |
