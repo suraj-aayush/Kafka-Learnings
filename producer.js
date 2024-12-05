@@ -3,7 +3,7 @@ const {kafka} = require('./client')
 async function init() {
     const producer = kafka.producer();
 
-console.log("CONNECTING PRODUCER");
+    console.log("CONNECTING PRODUCER");
 
     await producer.connect();
 
