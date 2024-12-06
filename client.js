@@ -4,3 +4,5 @@ exports.kafka = new Kafka({
     clientId: "my-app",
     brokers: ["192.168.29.249:9092"]
 }); 
+
+// import in all the files
