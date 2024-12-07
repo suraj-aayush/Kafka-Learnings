@@ -20,6 +20,14 @@ Make sure the following tools are installed before running the project:
    ```bash
    npm install --global yarn
 
+**Inside the Project :**
+
+In Terminal:
+
+yarn init
+
+yarn add kafkajs
+
 ## 🖥️ start Zookeeper
 
 docker run -d -p 2181:2181 zookeeper
